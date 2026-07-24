@@ -1,0 +1,417 @@
+Ratio Engine edge case log - 415 entries
+============================================================
+ABB 2012-12: ICR=None (debt-free substitution, interest=0)
+ABB 2014-03: ICR=None (debt-free substitution, interest=0)
+ABB 2015-03: ICR=None (debt-free substitution, interest=0)
+ADANIENSOL 2014-03: ICR=None (debt-free substitution, interest=0)
+ADANIENSOL 2014-03: division-by-zero avoided, sales=0/null
+ADANIENSOL 2017-03: revenue_cagr_3yr flag=ZERO_BASE
+ADANIENSOL 2017-03: pat_cagr_3yr flag=ZERO_BASE
+ADANIENSOL 2017-03: eps_cagr_3yr flag=ZERO_BASE
+ADANIENSOL 2018-03: pat_cagr_3yr flag=TURNAROUND
+ADANIENSOL 2018-03: eps_cagr_3yr flag=ZERO_BASE
+ADANIENSOL 2019-03: revenue_cagr_5yr flag=ZERO_BASE
+ADANIENSOL 2019-03: pat_cagr_5yr flag=ZERO_BASE
+ADANIENSOL 2019-03: eps_cagr_5yr flag=ZERO_BASE
+ADANIENSOL 2020-03: pat_cagr_5yr flag=TURNAROUND
+ADANIENSOL 2020-03: eps_cagr_5yr flag=ZERO_BASE
+ADANIENSOL 2024-03: revenue_cagr_10yr flag=ZERO_BASE
+ADANIENSOL 2024-03: pat_cagr_10yr flag=ZERO_BASE
+ADANIENSOL 2024-03: eps_cagr_10yr flag=ZERO_BASE
+ADANIGREEN 2020-03: pat_cagr_3yr flag=BOTH_NEGATIVE
+ADANIGREEN 2020-03: eps_cagr_3yr flag=ZERO_BASE
+ADANIGREEN 2021-03: pat_cagr_3yr flag=TURNAROUND
+ADANIGREEN 2021-03: eps_cagr_3yr flag=TURNAROUND
+ADANIGREEN 2022-03: pat_cagr_3yr flag=TURNAROUND
+ADANIGREEN 2022-03: pat_cagr_5yr flag=TURNAROUND
+ADANIGREEN 2022-03: eps_cagr_3yr flag=TURNAROUND
+ADANIGREEN 2022-03: eps_cagr_5yr flag=ZERO_BASE
+ADANIGREEN 2023-03: pat_cagr_3yr flag=TURNAROUND
+ADANIGREEN 2023-03: pat_cagr_5yr flag=TURNAROUND
+ADANIGREEN 2023-03: eps_cagr_3yr flag=ZERO_BASE
+ADANIGREEN 2023-03: eps_cagr_5yr flag=TURNAROUND
+ADANIGREEN 2024-03: pat_cagr_5yr flag=TURNAROUND
+ADANIGREEN 2024-03: eps_cagr_5yr flag=TURNAROUND
+ADANIPOWER 2016-03: pat_cagr_3yr flag=TURNAROUND
+ADANIPOWER 2016-03: eps_cagr_3yr flag=TURNAROUND
+ADANIPOWER 2017-03: pat_cagr_3yr flag=BOTH_NEGATIVE
+ADANIPOWER 2017-03: eps_cagr_3yr flag=BOTH_NEGATIVE
+ADANIPOWER 2018-03: pat_cagr_3yr flag=BOTH_NEGATIVE
+ADANIPOWER 2018-03: pat_cagr_5yr flag=BOTH_NEGATIVE
+ADANIPOWER 2018-03: eps_cagr_3yr flag=BOTH_NEGATIVE
+ADANIPOWER 2018-03: eps_cagr_5yr flag=BOTH_NEGATIVE
+ADANIPOWER 2019-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+ADANIPOWER 2019-03: pat_cagr_5yr flag=BOTH_NEGATIVE
+ADANIPOWER 2019-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+ADANIPOWER 2019-03: eps_cagr_5yr flag=BOTH_NEGATIVE
+ADANIPOWER 2020-03: pat_cagr_3yr flag=BOTH_NEGATIVE
+ADANIPOWER 2020-03: pat_cagr_5yr flag=BOTH_NEGATIVE
+ADANIPOWER 2020-03: eps_cagr_3yr flag=BOTH_NEGATIVE
+ADANIPOWER 2020-03: eps_cagr_5yr flag=BOTH_NEGATIVE
+ADANIPOWER 2021-03: pat_cagr_3yr flag=TURNAROUND
+ADANIPOWER 2021-03: eps_cagr_3yr flag=TURNAROUND
+ADANIPOWER 2022-03: pat_cagr_3yr flag=TURNAROUND
+ADANIPOWER 2022-03: pat_cagr_5yr flag=TURNAROUND
+ADANIPOWER 2022-03: eps_cagr_3yr flag=TURNAROUND
+ADANIPOWER 2022-03: eps_cagr_5yr flag=TURNAROUND
+ADANIPOWER 2023-03: pat_cagr_3yr flag=TURNAROUND
+ADANIPOWER 2023-03: pat_cagr_5yr flag=TURNAROUND
+ADANIPOWER 2023-03: pat_cagr_10yr flag=TURNAROUND
+ADANIPOWER 2023-03: eps_cagr_3yr flag=TURNAROUND
+ADANIPOWER 2023-03: eps_cagr_5yr flag=TURNAROUND
+ADANIPOWER 2023-03: eps_cagr_10yr flag=TURNAROUND
+ADANIPOWER 2024-03: pat_cagr_5yr flag=TURNAROUND
+ADANIPOWER 2024-03: pat_cagr_10yr flag=TURNAROUND
+ADANIPOWER 2024-03: eps_cagr_5yr flag=TURNAROUND
+ADANIPOWER 2024-03: eps_cagr_10yr flag=TURNAROUND
+BAJAJHLDNG 2013-03: ICR=None (debt-free substitution, interest=0)
+BAJAJHLDNG 2014-03: ICR=None (debt-free substitution, interest=0)
+BAJAJHLDNG 2015-03: ICR=None (debt-free substitution, interest=0)
+BAJAJHLDNG 2016-03: ICR=None (debt-free substitution, interest=0)
+BAJAJHLDNG 2017-03: ICR=None (debt-free substitution, interest=0)
+BAJAJHLDNG 2018-03: ICR=None (debt-free substitution, interest=0)
+BAJAJHLDNG 2019-03: ICR=None (debt-free substitution, interest=0)
+BANKBARODA 2016-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+BANKBARODA 2016-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+BANKBARODA 2018-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+BANKBARODA 2018-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+BANKBARODA 2018-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+BANKBARODA 2018-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+BANKBARODA 2019-03: pat_cagr_3yr flag=TURNAROUND
+BANKBARODA 2019-03: eps_cagr_3yr flag=TURNAROUND
+BANKBARODA 2021-03: pat_cagr_3yr flag=TURNAROUND
+BANKBARODA 2021-03: pat_cagr_5yr flag=TURNAROUND
+BANKBARODA 2021-03: eps_cagr_3yr flag=TURNAROUND
+BANKBARODA 2021-03: eps_cagr_5yr flag=TURNAROUND
+BANKBARODA 2023-03: pat_cagr_5yr flag=TURNAROUND
+BANKBARODA 2023-03: eps_cagr_5yr flag=TURNAROUND
+BHARTIARTL 2020-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+BHARTIARTL 2020-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+BHARTIARTL 2020-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+BHARTIARTL 2020-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+BHARTIARTL 2021-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+BHARTIARTL 2021-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+BHARTIARTL 2021-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+BHARTIARTL 2021-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+BHARTIARTL 2023-03: pat_cagr_3yr flag=TURNAROUND
+BHARTIARTL 2023-03: eps_cagr_3yr flag=TURNAROUND
+BHARTIARTL 2024-03: pat_cagr_3yr flag=TURNAROUND
+BHARTIARTL 2024-03: eps_cagr_3yr flag=TURNAROUND
+BHEL 2016-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+BHEL 2016-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+BHEL 2019-03: pat_cagr_3yr flag=TURNAROUND
+BHEL 2019-03: eps_cagr_3yr flag=TURNAROUND
+BHEL 2020-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+BHEL 2020-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+BHEL 2020-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+BHEL 2020-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+BHEL 2021-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+BHEL 2021-03: pat_cagr_5yr flag=BOTH_NEGATIVE
+BHEL 2021-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+BHEL 2021-03: eps_cagr_5yr flag=BOTH_NEGATIVE
+BHEL 2023-03: pat_cagr_3yr flag=TURNAROUND
+BHEL 2023-03: eps_cagr_3yr flag=TURNAROUND
+BHEL 2024-03: pat_cagr_3yr flag=TURNAROUND
+BHEL 2024-03: eps_cagr_3yr flag=TURNAROUND
+BOSCHLTD 2013-12: ICR=None (debt-free substitution, interest=0)
+CANBK 2016-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+CANBK 2016-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+CANBK 2018-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+CANBK 2018-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+CANBK 2018-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+CANBK 2018-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+CANBK 2019-03: pat_cagr_3yr flag=TURNAROUND
+CANBK 2019-03: eps_cagr_3yr flag=TURNAROUND
+CANBK 2020-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+CANBK 2020-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+CANBK 2020-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+CANBK 2020-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+CANBK 2021-03: pat_cagr_3yr flag=TURNAROUND
+CANBK 2021-03: pat_cagr_5yr flag=TURNAROUND
+CANBK 2021-03: eps_cagr_3yr flag=TURNAROUND
+CANBK 2021-03: eps_cagr_5yr flag=TURNAROUND
+CANBK 2023-03: pat_cagr_3yr flag=TURNAROUND
+CANBK 2023-03: pat_cagr_5yr flag=TURNAROUND
+CANBK 2023-03: eps_cagr_3yr flag=TURNAROUND
+CANBK 2023-03: eps_cagr_5yr flag=TURNAROUND
+CHOLAFIN 2015-03: ICR=None (debt-free substitution, interest=0)
+CHOLAFIN 2018-03: ICR=None (debt-free substitution, interest=0)
+CHOLAFIN 2020-03: ICR=None (debt-free substitution, interest=0)
+DLF 2020-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+DLF 2020-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+DLF 2020-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+DLF 2020-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+DLF 2023-03: pat_cagr_3yr flag=TURNAROUND
+DLF 2023-03: eps_cagr_3yr flag=TURNAROUND
+GODREJCP 2024-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+GODREJCP 2024-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+GODREJCP 2024-03: pat_cagr_10yr flag=DECLINE_TO_LOSS
+GODREJCP 2024-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+GODREJCP 2024-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+GODREJCP 2024-03: eps_cagr_10yr flag=DECLINE_TO_LOSS
+HINDALCO 2016-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+HINDALCO 2016-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+HINDALCO 2019-03: pat_cagr_3yr flag=TURNAROUND
+HINDALCO 2019-03: eps_cagr_3yr flag=TURNAROUND
+HINDALCO 2021-03: pat_cagr_5yr flag=TURNAROUND
+HINDALCO 2021-03: eps_cagr_5yr flag=TURNAROUND
+ICICIGI 2016-03: ICR=None (debt-free substitution, interest=0)
+ICICIPRULI 2016-03: ICR=None (debt-free substitution, interest=0)
+INDIGO 2020-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+INDIGO 2020-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+INDIGO 2020-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+INDIGO 2020-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+INDIGO 2021-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+INDIGO 2021-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+INDIGO 2021-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+INDIGO 2021-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+INDIGO 2022-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+INDIGO 2022-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+INDIGO 2022-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+INDIGO 2022-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+INDIGO 2023-03: pat_cagr_3yr flag=BOTH_NEGATIVE
+INDIGO 2023-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+INDIGO 2023-03: pat_cagr_10yr flag=DECLINE_TO_LOSS
+INDIGO 2023-03: eps_cagr_3yr flag=BOTH_NEGATIVE
+INDIGO 2023-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+INDIGO 2023-03: eps_cagr_10yr flag=DECLINE_TO_LOSS
+INDIGO 2024-03: pat_cagr_3yr flag=TURNAROUND
+INDIGO 2024-03: eps_cagr_3yr flag=TURNAROUND
+INFY 2016-03: ICR=None (debt-free substitution, interest=0)
+INFY 2017-03: ICR=None (debt-free substitution, interest=0)
+INFY 2018-03: ICR=None (debt-free substitution, interest=0)
+INFY 2019-03: ICR=None (debt-free substitution, interest=0)
+IOC 2020-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+IOC 2020-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+IOC 2020-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+IOC 2020-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+IOC 2023-03: pat_cagr_3yr flag=TURNAROUND
+IOC 2023-03: eps_cagr_3yr flag=TURNAROUND
+IRCTC 2015-03: ICR=None (debt-free substitution, interest=0)
+IRCTC 2016-03: ICR=None (debt-free substitution, interest=0)
+JINDALSTEL 2016-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+JINDALSTEL 2016-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+JINDALSTEL 2017-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+JINDALSTEL 2017-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+JINDALSTEL 2018-03: pat_cagr_3yr flag=BOTH_NEGATIVE
+JINDALSTEL 2018-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+JINDALSTEL 2018-03: eps_cagr_3yr flag=BOTH_NEGATIVE
+JINDALSTEL 2018-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+JINDALSTEL 2019-03: pat_cagr_3yr flag=BOTH_NEGATIVE
+JINDALSTEL 2019-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+JINDALSTEL 2019-03: eps_cagr_3yr flag=BOTH_NEGATIVE
+JINDALSTEL 2019-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+JINDALSTEL 2020-03: pat_cagr_3yr flag=BOTH_NEGATIVE
+JINDALSTEL 2020-03: pat_cagr_5yr flag=BOTH_NEGATIVE
+JINDALSTEL 2020-03: eps_cagr_3yr flag=BOTH_NEGATIVE
+JINDALSTEL 2020-03: eps_cagr_5yr flag=BOTH_NEGATIVE
+JINDALSTEL 2021-03: pat_cagr_3yr flag=TURNAROUND
+JINDALSTEL 2021-03: pat_cagr_5yr flag=TURNAROUND
+JINDALSTEL 2021-03: eps_cagr_3yr flag=TURNAROUND
+JINDALSTEL 2021-03: eps_cagr_5yr flag=TURNAROUND
+JINDALSTEL 2022-03: pat_cagr_3yr flag=TURNAROUND
+JINDALSTEL 2022-03: pat_cagr_5yr flag=TURNAROUND
+JINDALSTEL 2022-03: eps_cagr_3yr flag=TURNAROUND
+JINDALSTEL 2022-03: eps_cagr_5yr flag=TURNAROUND
+JINDALSTEL 2023-03: pat_cagr_3yr flag=TURNAROUND
+JINDALSTEL 2023-03: pat_cagr_5yr flag=TURNAROUND
+JINDALSTEL 2023-03: eps_cagr_3yr flag=TURNAROUND
+JINDALSTEL 2023-03: eps_cagr_5yr flag=TURNAROUND
+JINDALSTEL 2024-03: pat_cagr_5yr flag=TURNAROUND
+JINDALSTEL 2024-03: eps_cagr_5yr flag=TURNAROUND
+JIOFIN 2023-03: ICR=None (debt-free substitution, interest=0)
+JSWENERGY 2021-03: eps_cagr_3yr flag=ZERO_BASE
+JSWENERGY 2023-03: eps_cagr_5yr flag=ZERO_BASE
+JSWSTEEL 2016-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+JSWSTEEL 2016-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+JSWSTEEL 2019-03: pat_cagr_3yr flag=TURNAROUND
+JSWSTEEL 2019-03: eps_cagr_3yr flag=TURNAROUND
+JSWSTEEL 2021-03: pat_cagr_5yr flag=TURNAROUND
+JSWSTEEL 2021-03: eps_cagr_5yr flag=TURNAROUND
+LICI 2019-03: ICR=None (debt-free substitution, interest=0)
+LICI 2020-03: ICR=None (debt-free substitution, interest=0)
+LICI 2021-03: ICR=None (debt-free substitution, interest=0)
+LICI 2022-03: ICR=None (debt-free substitution, interest=0)
+M&M 2020-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+M&M 2020-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+M&M 2023-03: pat_cagr_3yr flag=TURNAROUND
+NAUKRI 2017-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+NAUKRI 2017-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+NAUKRI 2018-03: pat_cagr_3yr flag=TURNAROUND
+NAUKRI 2020-03: pat_cagr_3yr flag=BOTH_NEGATIVE
+NAUKRI 2020-03: pat_cagr_5yr flag=BOTH_NEGATIVE
+NAUKRI 2020-03: eps_cagr_3yr flag=BOTH_NEGATIVE
+NAUKRI 2020-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+NAUKRI 2022-03: pat_cagr_5yr flag=TURNAROUND
+NAUKRI 2022-03: eps_cagr_5yr flag=TURNAROUND
+NAUKRI 2023-03: pat_cagr_3yr flag=BOTH_NEGATIVE
+NAUKRI 2023-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+NAUKRI 2023-03: pat_cagr_10yr flag=DECLINE_TO_LOSS
+NAUKRI 2023-03: eps_cagr_3yr flag=BOTH_NEGATIVE
+NAUKRI 2023-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+NAUKRI 2023-03: eps_cagr_10yr flag=DECLINE_TO_LOSS
+PNB 2016-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+PNB 2016-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+PNB 2018-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+PNB 2018-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+PNB 2018-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+PNB 2018-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+PNB 2019-03: pat_cagr_3yr flag=BOTH_NEGATIVE
+PNB 2019-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+PNB 2019-03: eps_cagr_3yr flag=BOTH_NEGATIVE
+PNB 2019-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+PNB 2021-03: pat_cagr_3yr flag=TURNAROUND
+PNB 2021-03: pat_cagr_5yr flag=TURNAROUND
+PNB 2021-03: eps_cagr_3yr flag=TURNAROUND
+PNB 2021-03: eps_cagr_5yr flag=TURNAROUND
+PNB 2022-03: pat_cagr_3yr flag=TURNAROUND
+PNB 2022-03: eps_cagr_3yr flag=TURNAROUND
+PNB 2023-03: pat_cagr_5yr flag=TURNAROUND
+PNB 2023-03: eps_cagr_5yr flag=TURNAROUND
+PNB 2024-03: pat_cagr_5yr flag=TURNAROUND
+PNB 2024-03: eps_cagr_5yr flag=TURNAROUND
+SBILIFE 2020-03: ICR=None (debt-free substitution, interest=0)
+SBILIFE 2021-03: ICR=None (debt-free substitution, interest=0)
+SBILIFE 2022-03: ICR=None (debt-free substitution, interest=0)
+SBIN 2017-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+SBIN 2018-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+SBIN 2018-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+SBIN 2018-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+SBIN 2018-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+SBIN 2020-03: pat_cagr_3yr flag=TURNAROUND
+SBIN 2020-03: eps_cagr_3yr flag=ZERO_BASE
+SBIN 2021-03: pat_cagr_3yr flag=TURNAROUND
+SBIN 2021-03: eps_cagr_3yr flag=TURNAROUND
+SBIN 2022-03: pat_cagr_5yr flag=TURNAROUND
+SBIN 2022-03: eps_cagr_5yr flag=ZERO_BASE
+SBIN 2023-03: pat_cagr_5yr flag=TURNAROUND
+SBIN 2023-03: eps_cagr_5yr flag=TURNAROUND
+TATACONSUM 2016-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+TATACONSUM 2019-03: pat_cagr_3yr flag=TURNAROUND
+TATACONSUM 2019-03: eps_cagr_3yr flag=ZERO_BASE
+TATACONSUM 2021-03: pat_cagr_5yr flag=TURNAROUND
+TATACONSUM 2021-03: eps_cagr_5yr flag=ZERO_BASE
+TATAMOTORS 2019-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+TATAMOTORS 2019-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+TATAMOTORS 2019-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+TATAMOTORS 2019-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+TATAMOTORS 2020-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+TATAMOTORS 2020-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+TATAMOTORS 2020-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+TATAMOTORS 2020-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+TATAMOTORS 2021-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+TATAMOTORS 2021-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+TATAMOTORS 2021-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+TATAMOTORS 2021-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+TATAMOTORS 2022-03: pat_cagr_3yr flag=BOTH_NEGATIVE
+TATAMOTORS 2022-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+TATAMOTORS 2022-03: eps_cagr_3yr flag=BOTH_NEGATIVE
+TATAMOTORS 2022-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+TATAMOTORS 2023-03: pat_cagr_3yr flag=TURNAROUND
+TATAMOTORS 2023-03: eps_cagr_3yr flag=TURNAROUND
+TATAMOTORS 2024-03: pat_cagr_3yr flag=TURNAROUND
+TATAMOTORS 2024-03: pat_cagr_5yr flag=TURNAROUND
+TATAMOTORS 2024-03: eps_cagr_3yr flag=TURNAROUND
+TATAMOTORS 2024-03: eps_cagr_5yr flag=TURNAROUND
+TATAPOWER 2016-03: eps_cagr_3yr flag=ZERO_BASE
+TATAPOWER 2017-03: eps_cagr_3yr flag=TURNAROUND
+TATAPOWER 2018-03: eps_cagr_5yr flag=ZERO_BASE
+TATAPOWER 2019-03: eps_cagr_5yr flag=TURNAROUND
+TATAPOWER 2023-03: eps_cagr_10yr flag=ZERO_BASE
+TATAPOWER 2024-03: eps_cagr_10yr flag=TURNAROUND
+TATASTEEL 2016-03: pat_cagr_3yr flag=BOTH_NEGATIVE
+TATASTEEL 2017-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+TATASTEEL 2017-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+TATASTEEL 2018-03: pat_cagr_3yr flag=TURNAROUND
+TATASTEEL 2018-03: pat_cagr_5yr flag=TURNAROUND
+TATASTEEL 2018-03: eps_cagr_3yr flag=TURNAROUND
+TATASTEEL 2018-03: eps_cagr_5yr flag=TURNAROUND
+TATASTEEL 2019-03: pat_cagr_3yr flag=TURNAROUND
+TATASTEEL 2019-03: eps_cagr_3yr flag=ZERO_BASE
+TATASTEEL 2020-03: pat_cagr_3yr flag=TURNAROUND
+TATASTEEL 2020-03: pat_cagr_5yr flag=TURNAROUND
+TATASTEEL 2020-03: eps_cagr_3yr flag=TURNAROUND
+TATASTEEL 2020-03: eps_cagr_5yr flag=TURNAROUND
+TATASTEEL 2021-03: pat_cagr_5yr flag=TURNAROUND
+TATASTEEL 2021-03: eps_cagr_5yr flag=ZERO_BASE
+TATASTEEL 2022-03: pat_cagr_5yr flag=TURNAROUND
+TATASTEEL 2022-03: eps_cagr_5yr flag=TURNAROUND
+TATASTEEL 2023-03: pat_cagr_10yr flag=TURNAROUND
+TATASTEEL 2023-03: eps_cagr_10yr flag=TURNAROUND
+TATASTEEL 2024-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+TATASTEEL 2024-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+TATASTEEL 2024-03: pat_cagr_10yr flag=DECLINE_TO_LOSS
+TATASTEEL 2024-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+TATASTEEL 2024-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+TATASTEEL 2024-03: eps_cagr_10yr flag=DECLINE_TO_LOSS
+TRENT 2016-03: pat_cagr_3yr flag=TURNAROUND
+TRENT 2016-03: eps_cagr_3yr flag=TURNAROUND
+TRENT 2017-03: pat_cagr_3yr flag=TURNAROUND
+TRENT 2017-03: eps_cagr_3yr flag=TURNAROUND
+TRENT 2018-03: pat_cagr_5yr flag=TURNAROUND
+TRENT 2018-03: eps_cagr_5yr flag=TURNAROUND
+TRENT 2019-03: pat_cagr_5yr flag=TURNAROUND
+TRENT 2019-03: eps_cagr_5yr flag=TURNAROUND
+TRENT 2021-03: pat_cagr_3yr flag=DECLINE_TO_LOSS
+TRENT 2021-03: pat_cagr_5yr flag=DECLINE_TO_LOSS
+TRENT 2021-03: eps_cagr_3yr flag=DECLINE_TO_LOSS
+TRENT 2021-03: eps_cagr_5yr flag=DECLINE_TO_LOSS
+TRENT 2023-03: pat_cagr_10yr flag=TURNAROUND
+TRENT 2023-03: eps_cagr_10yr flag=TURNAROUND
+TRENT 2024-03: pat_cagr_3yr flag=TURNAROUND
+TRENT 2024-03: pat_cagr_10yr flag=TURNAROUND
+TRENT 2024-03: eps_cagr_3yr flag=TURNAROUND
+TRENT 2024-03: eps_cagr_10yr flag=TURNAROUND
+ABB: ROCE anomaly (non-financial) - computed=36.54%, source=46.0% [category: data source issue - source pre-computed via different methodology]
+ADANIENT: ROE anomaly - computed=8.53%, source=13.64% [category: version difference - use ratio engine value for analytics, source for display only]
+ADANIGREEN: ROCE anomaly (non-financial) - computed=7.25%, source=96.5% [category: data source issue - source pre-computed via different methodology]
+ADANIPOWER: ROCE anomaly (non-financial) - computed=18.39%, source=32.2% [category: data source issue - source pre-computed via different methodology]
+ADANIPOWER: ROE anomaly - computed=48.28%, source=57.1% [category: version difference - use ratio engine value for analytics, source for display only]
+ASIANPAINT: ROCE anomaly (non-financial) - computed=31.75%, source=41.75% [category: data source issue - source pre-computed via different methodology]
+BAJAJ-AUTO: ROCE anomaly (non-financial) - computed=27.21%, source=33.5% [category: data source issue - source pre-computed via different methodology]
+BAJAJFINSV: ROCE anomaly (sector-relative (Financials)) - computed=11.45%, source=21.14% [category: data source issue - source pre-computed via different methodology]
+BAJAJFINSV: ROE anomaly - computed=25.85%, source=11.72% [category: version difference - use ratio engine value for analytics, source for display only]
+BAJAJHLDNG: ROCE anomaly (sector-relative (Financials)) - computed=2.81%, source=13.1% [category: data source issue - source pre-computed via different methodology]
+BAJFINANCE: ROCE anomaly (sector-relative (Financials)) - computed=4.17%, source=11.9% [category: data source issue - source pre-computed via different methodology]
+BEL: ROCE anomaly (non-financial) - computed=3628.35%, source=34.6% [category: data source issue - source pre-computed via different methodology]
+BEL: ROE anomaly - computed=4744.05%, source=26.3% [category: version difference - use ratio engine value for analytics, source for display only]
+BOSCHLTD: ROCE anomaly (non-financial) - computed=13.76%, source=20.6% [category: data source issue - source pre-computed via different methodology]
+BPCL: ROE anomaly - computed=35.51%, source=41.9% [category: version difference - use ratio engine value for analytics, source for display only]
+CHOLAFIN: ROCE anomaly (sector-relative (Financials)) - computed=3.37%, source=10.4% [category: data source issue - source pre-computed via different methodology]
+CIPLA: ROCE anomaly (non-financial) - computed=67.60%, source=22.8% [category: data source issue - source pre-computed via different methodology]
+COALINDIA: ROCE anomaly (non-financial) - computed=98.17%, source=63.6% [category: data source issue - source pre-computed via different methodology]
+COALINDIA: ROE anomaly - computed=45.17%, source=52.0% [category: version difference - use ratio engine value for analytics, source for display only]
+DRREDDY: ROCE anomaly (non-financial) - computed=21.36%, source=26.5% [category: data source issue - source pre-computed via different methodology]
+EICHERMOT: ROCE anomaly (non-financial) - computed=20.21%, source=31.1% [category: data source issue - source pre-computed via different methodology]
+GODREJCP: ROCE anomaly (non-financial) - computed=17.17%, source=26.49% [category: data source issue - source pre-computed via different methodology]
+GODREJCP: ROE anomaly - computed=-4.45%, source=6.77% [category: version difference - use ratio engine value for analytics, source for display only]
+HAL: ROCE anomaly (non-financial) - computed=2590.99%, source=38.9% [category: data source issue - source pre-computed via different methodology]
+HAL: ROE anomaly - computed=3816.58%, source=28.9% [category: version difference - use ratio engine value for analytics, source for display only]
+HDFCLIFE: ROCE anomaly (sector-relative (Financials)) - computed=645.95%, source=6.61% [category: data source issue - source pre-computed via different methodology]
+HEROMOTOCO: ROCE anomaly (non-financial) - computed=173.71%, source=29.1% [category: data source issue - source pre-computed via different methodology]
+HINDALCO: ROCE anomaly (non-financial) - computed=113.58%, source=11.3% [category: data source issue - source pre-computed via different methodology]
+HINDUNILVR: ROCE anomaly (non-financial) - computed=87.32%, source=27.2% [category: data source issue - source pre-computed via different methodology]
+ICICIGI: ROCE anomaly (sector-relative (Financials)) - computed=145.23%, source=22.5% [category: data source issue - source pre-computed via different methodology]
+ICICIPRULI: ROCE anomaly (sector-relative (Financials)) - computed=753.98%, source=8.75% [category: data source issue - source pre-computed via different methodology]
+INDIGO: ROCE anomaly (non-financial) - computed=4953.54%, source=24.5% [category: data source issue - source pre-computed via different methodology]
+INFY: ROCE anomaly (non-financial) - computed=32.91%, source=40.0% [category: data source issue - source pre-computed via different methodology]
+IRCTC: ROCE anomaly (non-financial) - computed=42.83%, source=53.8% [category: data source issue - source pre-computed via different methodology]
+IRCTC: ROE anomaly - computed=34.40%, source=40.4% [category: version difference - use ratio engine value for analytics, source for display only]
+LICI: ROCE anomaly (sector-relative (Financials)) - computed=39.05%, source=63.79% [category: data source issue - source pre-computed via different methodology]
+LICI: ROE anomaly - computed=49.45%, source=63.61% [category: version difference - use ratio engine value for analytics, source for display only]
+LT: ROCE anomaly (non-financial) - computed=118.53%, source=17.18% [category: data source issue - source pre-computed via different methodology]
+LT: ROE anomaly - computed=77.67%, source=10.49% [category: version difference - use ratio engine value for analytics, source for display only]
+LTIM: ROCE anomaly (non-financial) - computed=25.21%, source=34.1% [category: data source issue - source pre-computed via different methodology]
+M&M: ROCE anomaly (non-financial) - computed=11.54%, source=26.98% [category: data source issue - source pre-computed via different methodology]
+MARUTI: ROCE anomaly (non-financial) - computed=15.59%, source=23.67% [category: data source issue - source pre-computed via different methodology]
+NESTLEIND: ROCE anomaly (non-financial) - computed=143.15%, source=185.43% [category: data source issue - source pre-computed via different methodology]
+NESTLEIND: ROE anomaly - computed=117.75%, source=135.61% [category: version difference - use ratio engine value for analytics, source for display only]
+PFC: ROCE anomaly (sector-relative (Financials)) - computed=3.48%, source=9.96% [category: data source issue - source pre-computed via different methodology]
+PFC: ROE anomaly - computed=26.16%, source=19.49% [category: version difference - use ratio engine value for analytics, source for display only]
+PNB: ROE anomaly - computed=61.32%, source=8.7% [category: version difference - use ratio engine value for analytics, source for display only]
+SBILIFE: ROCE anomaly (sector-relative (Financials)) - computed=1.14%, source=13.2% [category: data source issue - source pre-computed via different methodology]
+SHRIRAMFIN: ROCE anomaly (sector-relative (Financials)) - computed=4.06%, source=11.3% [category: data source issue - source pre-computed via different methodology]
+TATAMOTORS: ROE anomaly - computed=37.46%, source=49.4% [category: version difference - use ratio engine value for analytics, source for display only]
+TATASTEEL: ROE anomaly - computed=-5.33%, source=6.55% [category: version difference - use ratio engine value for analytics, source for display only]
+TCS: ROE anomaly - computed=50.94%, source=0.52% [category: version difference - use ratio engine value for analytics, source for display only]
+TRENT: ROE anomaly - computed=36.31%, source=27.2% [category: version difference - use ratio engine value for analytics, source for display only]
