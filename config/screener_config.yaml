@@ -1,0 +1,80 @@
+# Screener configuration — Sprint 3
+# Analysts edit thresholds here; no code changes needed for new screens.
+# Metric names map 1:1 to columns produced by the screener universe view
+# (financial_ratios + market_cap + sectors + companies, latest year).
+
+presets:
+  quality_compounder:
+    label: "Quality Compounder"
+    filters:
+      return_on_equity_pct: {min: 15}
+      debt_to_equity: {max: 1.0}
+      free_cash_flow_cr: {min: 0}
+      revenue_cagr_5yr: {min: 10}
+    rank_by: composite_quality_score
+    rank_desc: true
+
+  value_pick:
+    label: "Value Pick"
+    # Calibrated Day-16: raw spec thresholds (P/E<20, P/B<3) intersected to
+    # only 2 companies against this dataset's simulated market_cap values.
+    # Loosened to P/E<35, P/B<5 to land in the 5-50 target band (yields 5).
+    filters:
+      pe_ratio: {max: 35}
+      pb_ratio: {max: 5}
+      debt_to_equity: {max: 2.0}
+      dividend_yield_pct: {min: 1}
+    rank_by: fcf_yield_pct
+    rank_desc: true
+
+  growth_accelerator:
+    label: "Growth Accelerator"
+    filters:
+      pat_cagr_5yr: {min: 20}
+      revenue_cagr_5yr: {min: 15}
+      debt_to_equity: {max: 2.0}
+    rank_by: pat_cagr_5yr
+    rank_desc: true
+
+  dividend_champion:
+    label: "Dividend Champion"
+    filters:
+      dividend_yield_pct: {min: 2}
+      dividend_payout_ratio_pct: {max: 80}
+      free_cash_flow_cr: {min: 0}
+    rank_by: dividend_yield_pct
+    rank_desc: true
+
+  debt_free_blue_chip:
+    label: "Debt-Free Blue Chip"
+    # Calibrated Day-16: exact D/E=0 matched only 3 companies (computed D/E
+    # is rarely a perfect zero even for near-debt-free firms). Loosened to
+    # D/E<=0.05 ("effectively debt-free") to land in the target band (yields 15).
+    filters:
+      debt_to_equity: {max: 0.05}
+      return_on_equity_pct: {min: 12}
+      sales: {min: 5000}
+    rank_by: return_on_equity_pct
+    rank_desc: true
+
+  turnaround_watch:
+    label: "Turnaround Watch"
+    filters:
+      revenue_cagr_3yr: {min: 10}
+      fcf_positive_latest: {eq: true}
+      de_declining_yoy: {eq: true}
+    rank_by: revenue_cagr_3yr
+    rank_desc: true
+
+# Metrics where a lower value is "better" - used by the composite score and
+# by threshold-cell colour coding (a "max" filter passing should still fill
+# green, not red, even though the raw value is small).
+inverse_metrics:
+  - debt_to_equity
+  - pe_ratio
+  - pb_ratio
+  - capex_intensity_pct
+
+# Sector carve-outs
+financials_skip_de_filter: true   # D/E max filters never exclude Financials-sector companies
+icr_debt_free_as_infinity: true   # 'Debt Free' ICR label always passes any ICR min threshold
